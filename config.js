@@ -35,4 +35,17 @@ CKEDITOR.editorConfig = function( config ) {
 
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
+
+	// Extra Skin
+	config.skin = 'icy_orange';
+
+	// Extra plugins : Glyphicons
+	config.extra_plugins = 'glyphicons';
+	config.contentsCss = 'path/to/your/bootstrap.css';
+	config.allowedContent = true; 
+
+	// Extra plugins : Widgets and Layouts
+	config.extra_plugins = 'widgetbootstrap';
+	config.extra_plugins = 'widgettemplatemenu';
+
 };
